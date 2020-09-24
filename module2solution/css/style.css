@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #D0D3D4;
+	font-family: Courier New, monospace;
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	text-align: center;
+	color: #154360;#283747;
+	font-size: 3em;
+	margin-bottom: 20px;	
+}
+#box{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	overflow: none;
+}
+.item-name{
+	text-align: centre;
+	border: 3.5px solid black;
+	width: 120px;
+	height: 40px
+	padding: 5px;
+	float: right;
+	position: relative;
+	margin-top: 0%;
+	margin-right: 16px;
+	overflow: visible;
+
+}
+.content{
+	background-color: #85C1E9;
+	border: 3.5px solid black;
+	width: 95%;
+	font-size: 20px;
+	margin: 2%;
+	padding-top: 40px;
+
+}
+
+.chicken{background-color: #58D68D}
+.beef{background-color: #922B21; color:#F0F3F4;}
+.sushi{background-color: #E67E22}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+  	float: left;
+    width: 33.33%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    margin-left: -10px;
+    width: 100%;
+  }
+  .name3{
+    margin-right: 65px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
+  	float: left;
+    width: 100%;
+  }
+  .content-name{
+    margin-right: 30px;
+  }
+}
+
