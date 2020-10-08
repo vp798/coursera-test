@@ -1,5 +1,6 @@
 body{
 	background-color: #D0D3D4;
+	font-family: Courier New, monospace;
 	margin: 0px;
 	padding: 0px;
 }
@@ -9,10 +10,33 @@ body{
 }
 .navbar{
 	border-radius: 0px;
-
+}
+.sticky-top{
+	position: sticky;
+}
+.navbar-dark .navbar-brand{
+	color: #fff;
+}
+.bg-dark{
+	background: #343a40;
 }
 .navbar-brand{
 	font-size: 24px;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+button {
+    text-transform: none;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0em;
 }
 li{
 	text-align: center;
@@ -32,13 +56,13 @@ h1{
 .item-name{
 	text-align: centre;
 	border: 3.5px solid black;
-	width: 120px;
+	width: 150px;
 	height: 40px
 	padding: 5px;
 	float: right;
 	position: relative;
 	margin-top: 0%;
-	margin-right: 37px;
+	margin-right: 35px;
 	overflow: none;
 
 }
